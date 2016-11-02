@@ -50,11 +50,14 @@ Since we are covering a lot of new stuff in a very limited span of time, I feel 
 * Take the image from your index.html file and copy it to your giphy.html file.
 * Add a new route to your website/url.py file for your new view
 * At the bottom of your website/views.py file, add a new function. Name it giphy. Make sure the names match in the website/url.py file. Here is an example of what a function like that might look like:
-```def giphy(request, giphy_search):
+
+```
+def giphy(request, giphy_search):
     #Query giphy api here
     giphy_json = API_Images_In_Array
     return render(request, 'site/giphy.html', {'giphy': giphy_json})
 ```
+
 * Make sure you are grabbing the right urls when you query the api! Some of the urls aren't meant to be embedded in an image tag. [Here](https://media.giphy.com/media/EaMTsoYxfPpuw/giphy.gif) is an example of a url that works in an image tag. Play around with the image tag in the chrome inspector if you are having trouble figuring out which image to use.
 * Views return objects that look like this => _return render(request, 'site/giphy.html', {'giphy': giphy_json})_ . Make sure giphy_json contains a list of your giphy images.
 * Django can create loops in html for you to use! Take advantage of this knowledge to loop through your images and print them out on your site. Look at how the loop is implemented in the results.html and index.html files to get some hints on what to do.
