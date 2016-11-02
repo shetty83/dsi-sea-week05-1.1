@@ -38,8 +38,10 @@ Open up Django Setup.ipynb. We will be working with this file for a little bit t
 ## Lab (60 mins)
 You will be building this today
 
-![](./images/01.png =400x600)
-![](./images/02.png =400x600)
+![](./images/01.png = 400x)
+![](./images/02.png = 400x)
+<img src="/images/01.png"/ style="width: 400px;">
+<img src="/images/02.png"/ style="width: 400px;">
 
 ### ADDITIONAL RESOURCES
 
