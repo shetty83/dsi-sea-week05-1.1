@@ -45,3 +45,4 @@ You will be building this today
 
 - [How I built the site](https://docs.djangoproject.com/en/1.10/intro/tutorial01/)
 - [HTML Helper](http://www.w3schools.com/html/)
+- [Giphy API](https://github.com/Giphy/GiphyAPI)
