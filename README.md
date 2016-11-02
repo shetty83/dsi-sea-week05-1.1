@@ -38,8 +38,8 @@ Open up Django Setup.ipynb. We will be working with this file for a little bit t
 ## Lab (60 mins)
 You will be building this today
 
-<img src="/images/01.jpg"/>
-<img src="/images/02.jpg"/>
+<img src="/images/01.png"/>
+<img src="/images/02.png"/>
 
 ### ADDITIONAL RESOURCES
 
