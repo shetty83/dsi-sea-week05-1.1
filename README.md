@@ -38,8 +38,8 @@ Open up Django Setup.ipynb. We will be working with this file for a little bit t
 ## Lab (60 mins)
 You will be building this today
 
-<img src="/images/01.png"/ style="max-width: 100%;border: black 2px solid;padding: 1em;width: 400px;">
-<img src="/images/02.png"/ style="max-width: 100%;border: black 2px solid;padding: 1em;width: 400px;">
+<img src="/images/01.png"/ style="border: black 2px solid;padding: 1em;width: 400px;">
+<img src="/images/02.png"/ style="border: black 2px solid;padding: 1em;width: 400px;">
 
 ### ADDITIONAL RESOURCES
 
