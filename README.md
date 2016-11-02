@@ -50,7 +50,7 @@ Since we are covering a bunch of new stuff in a very limited span of time, I fee
 * Take the image from your index.html file and copy it to your giphy.html file.
 * Add a new route to your website/url.py file for your new view
 * At the bottom of your website/views.py file, add a new function. Name it giphy. Make sure the names match in the website/url.py file. Here is an example of what a function like that might look like:
-`def giphy(request, giphy_search):
+  `def giphy(request, giphy_search):
     #Query giphy api here
     giphy_json = API_Images_In_Array
     return render(request, 'site/giphy.html', {'giphy': giphy_json})`
